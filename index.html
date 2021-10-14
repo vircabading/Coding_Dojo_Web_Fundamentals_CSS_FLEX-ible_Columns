@@ -1,22 +1,37 @@
 <!DOCTYPE html>
-
 <!--////////////////////////////////////////////////
     Subj: Coding Dojo > Web Fundamentals > CSS
     FLEX-ible Columns
     By: Virgilio D. Cabading Jr.
     Creaeted: October 13, 2021
     ////////////////////////////////////////////////-->
-
 <html lang="en">
-<head>
+<head>                                                                      <!-- *** HEAD *** -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>FLEX-ible Columns</title>
+    <link rel="stylesheet" href="style.css">                                <!-- Connect to CSS style sheet -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">       <!-- Designate Favicon -->
+    <title>FLEX-ible Columns</title>                                        <!-- Tab Title -->
 </head>
-<body>
+
+<body>                                                                      <!-- *** BODY *** -->
+    <div class="row">                                                       <!-- First Row of Columns -->
+        <div class="col">1/4</div>
+        <div class="col">1/4</div>
+        <div class="col">1/4</div>
+        <div class="col">1/4</div>
+    </div>
     
+    <div class="row">                                                       <!-- Second Row of Columns -->
+        <div class="col">1/3</div> 
+        <div class="col-2">2/3</div>
+    </div>
+    
+    <div class="row">                                                       <!-- Third Row of Columns -->
+        <div class="col-2">2/5</div>
+        <div class="col-3">3/5</div>
+    </div>
+        
 </body>
 </html>
